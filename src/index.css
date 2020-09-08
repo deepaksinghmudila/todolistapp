@@ -1,13 +1,76 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding:0; 
+  box-sizing: border-box;
+}
+body{
+    background-color:DARKORANGE
+}
+.outer_div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.main_div{            
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items:center;
+     margin-top:5%;
+     border-radius:10px;     
+     border:3px solid white;
+}
+.card{                
+      display:flex;
+      flex-direction: space-between;
+      align-items:center;
+      justify-items: center;                        
+}
+.row2{
+    margin-left: 18px;
+}
+.row3{
+  margin:auto 18px auto 5px;
+}  
+.list_item {
+  display:flex;
+  flex-direction: left; 
+  align-items: center;   
+  padding: 2px; 
+}
+i { 
+    border-radius:50%;  
+    color:black;     
+}
+i:hover{
+   background-color:red;
+   color:white;
+}
+.list_item i,li{
+  margin-left:10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*********************************************************/ 
+input{
+  border:none;   
+  text-align: center;    
+} 
+input:focus {
+    outline:none;     
+}
+button {
+    width:30px;
+    height:30px;   
+    border:none; 
+    border-radius: 50%;
+    background-color:lightgreen;
+}
+button:hover {
+   background-color:darkorange;
+   color:white;
+}
+ul, li {
+   padding: 0px;
+   list-style: none;
+      
 }
