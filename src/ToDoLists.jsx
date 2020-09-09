@@ -1,13 +1,12 @@
 import React from 'react';
+import DeleteIcon from '@material-ui/icons/Delete';
 
 const ToDoLists = (props) => {       
 
  return (
   <>
         <div  className="list_item">
-             <i
-                 className="fa fa-close"
-                 area-hidden="true"
+             <DeleteIcon                 
                  onClick={() => {
                      props.onSelect(props.id);
                  }} />              

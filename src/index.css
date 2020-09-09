@@ -17,7 +17,7 @@ body{
      justify-items: center;
      align-items:center;
      margin-top:5%;
-     border-radius:10px;     
+     border-radius:7px;     
      border:3px solid white;
 }
 .card{                
@@ -37,7 +37,7 @@ body{
   flex-direction: left; 
   align-items: center;   
   padding: 2px; 
-}
+} 
 i { 
     border-radius:50%;  
     color:black;     
@@ -61,9 +61,10 @@ input:focus {
 button {
     width:30px;
     height:30px;   
-    border:none; 
+    border:none;
+    text-align: center; 
     border-radius: 50%;
-    background-color:lightgreen;
+    padding:3.5px;
 }
 button:hover {
    background-color:darkorange;

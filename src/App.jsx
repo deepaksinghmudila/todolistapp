@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 import ToDoLists from './ToDoLists';
+import AddIcon from '@material-ui/icons/Add'; 
 
 const App = () => {
    
@@ -44,7 +45,7 @@ const App = () => {
                               />
                          </div>                                    
                          <div className="row3">
-                              <button onClick={listOfItems}> + </button>                                                    
+                              <button onClick={listOfItems}> <AddIcon /> </button>                                                    
                          </div>                                                     
                     </div>    
                 <div className="row4">    
