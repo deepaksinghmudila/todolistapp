@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './index.css';
 import ToDoLists from './ToDoLists';
 import AddIcon from '@material-ui/icons/Add'; 
+import Button from '@material-ui/core/Button';
+import Tooltip from '@material-ui/core/Tooltip';
 
 const App = () => {
    
@@ -45,7 +47,11 @@ const App = () => {
                               />
                          </div>                                    
                          <div className="row3">
-                              <button onClick={listOfItems}> <AddIcon /> </button>                                                    
+                            <Tooltip title="Add">
+                                <Button onClick={listOfItems}>
+                                 <AddIcon />
+                                </Button>
+                            </Tooltip>                                                 
                          </div>                                                     
                     </div>    
                 <div className="row4">    
